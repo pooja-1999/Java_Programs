@@ -27,10 +27,10 @@ public class shape {
 	      System.out.println("Area of square = "+area);
 	   }
     public static void rectarea(float area) {
-	      System.out.println("Area of square = "+area);
+	      System.out.println("Area of Rectangle = "+area);
 	   }
     public static void cirarea(float area) {
-	      System.out.println("Area of square = "+area);
+	      System.out.println("Area of Circle = "+area);
 	   }
     
 	public void area(int g,int c)
@@ -45,12 +45,14 @@ public class shape {
 	
 
    
-    public static void main(String args[]){  
+    public static void main(String args[]){ 
+    	
+    	shape ob;
       
-        shape s2 = new shape(5);
-        shape s3 = new shape(6.8f);
-        shape s4 = new shape(9.2f,7.2f);
-        shape ob=new shape();
+        ob = new shape(5);
+        ob = new shape(6.8f);
+        ob = new shape(9.2f,7.2f);
+        ob = new shape();
         ob.area(10.0f,12.3f);
         ob.area(5,7);
      
