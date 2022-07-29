@@ -22,6 +22,7 @@ package methodandconstructor;
 		{
 			System.out.println("abstract method 1 is created");
 		}
+		abstract void absmethod2();
 	}	
 	
 	class Hello extends Infosys {
