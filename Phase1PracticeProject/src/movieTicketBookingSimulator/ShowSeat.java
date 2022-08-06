@@ -4,7 +4,8 @@ import java.io.FileWriter;
 import java.util.LinkedList;
 
 public class ShowSeat {
-	public static void main(String args[]) {
+	public void SeatOccupied() 
+	{
 		 LinkedList<String> arrayseat = new LinkedList<String>();
 		  arrayseat.add("A1");
 		  arrayseat.add("A2");

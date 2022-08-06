@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.*;
 
 public class MovieTicketBooking {
-	  
+	
 	static String password ="password";
 	static LinkedList<String> arrayseat1 = new LinkedList<String>(); 		    
 	static LinkedList<String> arrayseat2 = new LinkedList<String>();
@@ -27,7 +27,7 @@ public class MovieTicketBooking {
 	        System.out.println("\n*****************************************************\n");
 	        System.out.println("Welcome to the Movie Ticket Booking Application \n");
 	        System.out.println("*****************************************************\n");
-	        
+	        new ShowSeat().SeatOccupied();  
 	        useridentification();
 	    }
 	  public static void useridentification() {
