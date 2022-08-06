@@ -1,6 +1,4 @@
-/*First run "ShowSeat.java" in the same movieTicketBookingSimulator package.
- * After that only run this .java file(MovieTicketBooking.java)
- * username: username
+/*username: username
  * password: password
  */
 
