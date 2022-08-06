@@ -1,3 +1,9 @@
+/*First run "ShowSeat.java" in the same movieTicketBookingSimulator package.
+ * After that only run this .java file(MovieTicketBooking.java)
+ */
+
+
+
 package movieTicketBookingSimulator;
 
 import java.io.*;
