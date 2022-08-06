@@ -136,7 +136,7 @@ private static void frontdeskfunctions(){
 			       	                  char[] array = new char[100];
 			       	                  FileReader input = new FileReader("D://ME//validseat1.txt");
 			       	                  input.read(array);
-			       	                  System.out.println("\nAvailable Seats of Show 1:\n");
+			       	                  System.out.println("\nAvailable Seats for Show 1:\n");
 			       	                  System.out.println(array);
 			       	                  input.close();
 			       	                   }
@@ -147,7 +147,7 @@ private static void frontdeskfunctions(){
 			       	                  char[] array = new char[100];
 			       	                  FileReader input = new FileReader("D://ME//validseat2.txt");
 			       	                  input.read(array);
-			       	                  System.out.println("\nAvailable Seats of show 2:\n");
+			       	                  System.out.println("\nAvailable Seats for show 2:\n");
 			       	                  System.out.println(array);
 			       	                  input.close();
 			       	                  }
@@ -158,7 +158,7 @@ private static void frontdeskfunctions(){
 				                      char[] array = new char[100];
 				                	  FileReader input = new FileReader("D://ME//validseat3.txt");
 				                	  input.read(array);
-				                	  System.out.println("\nAvailable Seats of show 3:\n");
+				                	  System.out.println("\nAvailable Seats for show 3:\n");
 				                	  System.out.println(array);
 				                	  input.close();
 			       	                  }
@@ -169,7 +169,7 @@ private static void frontdeskfunctions(){
 			       	                    char[] array = new char[100];
 			       	                    FileReader input = new FileReader("D://ME//validseat4.txt");
 			       	                    input.read(array);
-			       	                    System.out.println("\nAvailable Seats of show 4:\n");
+			       	                    System.out.println("\nAvailable Seats for show 4:\n");
 			       	                    System.out.println(array);
 			       	                    input.close();
 			       	                   }
@@ -180,7 +180,7 @@ private static void frontdeskfunctions(){
 				                	   char[] array = new char[100];
 				                	   FileReader input = new FileReader("D://ME//validseat4.txt");
 				                	   input.read(array);
-				                	   System.out.println("\nAvailable Seatsof show 5:\n");
+				                	   System.out.println("\nAvailable Seats for show 5:\n");
 				                	   System.out.println(array);
 				                	   input.close();
 			       	                  }
@@ -191,7 +191,7 @@ private static void frontdeskfunctions(){
 			                	   char[] array = new char[100];
 			                	   FileReader input = new FileReader("D://ME//validseat6.txt");
 			                	   input.read(array);
-			                	   System.out.println("\nAvailable Seatsof show 6:\n");
+			                	   System.out.println("\nAvailable Seats for show 6:\n");
 			                	   System.out.println(array);
 			                	   input.close();
 		       	                  }
@@ -238,7 +238,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat1.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seatsof show 1:");
+	                	      System.out.println("Available Seats for show 1:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
@@ -273,7 +273,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat2.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seats of show 2:");
+	                	      System.out.println("Available Seats for show 2:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
@@ -307,7 +307,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat3.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seats of show 3:");
+	                	      System.out.println("Available Seats for show 3:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
@@ -340,7 +340,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat4.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seats of show 4:");
+	                	      System.out.println("Available Seats for show 4:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
@@ -373,7 +373,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat5.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seats of show 5:");
+	                	      System.out.println("Available Seats for show 5:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
@@ -406,7 +406,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	      char[] array = new char[100];
 	                	      FileReader input = new FileReader("D://ME//validseat6.txt");
 	                	      input.read(array);
-	                	      System.out.println("Available Seats of show 6:");
+	                	      System.out.println("Available Seats for show 6:");
 	                	      System.out.println(array);
 	                	      input.close();
 	                	    }
