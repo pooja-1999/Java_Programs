@@ -241,7 +241,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	  int num = l.nextInt();
 	                	  try {
 	                	      //reading the file
-	                	      char[] array = new char[100];
+	                	      char[] array = new char[200];
 	                	      FileReader input = new FileReader("D://ME//validseat1.txt");
 	                	      input.read(array);
 	                	      System.out.println("Available Seats for show 1:");
@@ -257,13 +257,17 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                		  String  rowsel =  l.nextLine();
 	                		  Arr1[k]=rowsel;
 	                		   }
+	                	  
 	                	  System.out.println("\nPrice for One ticket = 200");
 	                	  System.out.println("\nTotal amount to be paid: "+(200*num)+"\n");
 	                	  int flag = payment();
 	                	  if (flag == 1)
 	                	  {
 	                		  Collections.addAll(arrayseat1, Arr1);
-	                		  sec_list.removeAll(arrayseat1);
+	                		  for(int i=0;i<sec_list.size();i++)
+	                			 {for (int j=0;j<arrayseat1.size();j++)
+	                			  {if((sec_list.get(i)).equals(arrayseat1.get(j)))
+	                			    {sec_list.set(i,"Booked");}}}
 	                		  new Validseats1().updatefile(sec_list);
 	                	  }
 	                	  Customerfunctions(arrayseat);
@@ -276,7 +280,7 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	  int num = l.nextInt();
 	                	  try {
 	                	      //reading the file
-	                	      char[] array = new char[100];
+	                	      char[] array = new char[200];
 	                	      FileReader input = new FileReader("D://ME//validseat2.txt");
 	                	      input.read(array);
 	                	      System.out.println("Available Seats for show 2:");
@@ -292,13 +296,17 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                		  String  rowsel =  l.nextLine();
 	                		  Arr2[k]=rowsel;
 	                		   }
+	                	  
 	                	  System.out.println("\nPrice for One ticket = 200\n");
 	                	  System.out.println("Total amount to be paid: "+(200*num)+"\n");
 	                	  int flag = payment();
 	                	  if (flag == 1)
-	                	  {
+	                	  {	  
 	                		  Collections.addAll(arrayseat2, Arr2);
-	                		  sec_list.removeAll(arrayseat2);
+	                		  for(int i=0;i<sec_list.size();i++)
+	                			 {for (int j=0;j<arrayseat2.size();j++)
+	                			  {if((sec_list.get(i)).equals(arrayseat2.get(j)))
+	                			    {sec_list.set(i,"Booked");}}}
 	                		  new Validseats2().updatefile(sec_list);
 	                	  }
 	                	  Customerfunctions(arrayseat);
@@ -326,14 +334,18 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                		  String  rowsel =  l.nextLine();
 	                		  Arr3[k]=rowsel;
 	                		   }
+	                	  
 	                	  System.out.println("\nPrice for One ticket = 200\n");
 	                	  System.out.println("Total amount to be paid: "+(200*num)+"\n");
 	                	  int flag = payment();
 	                	  if (flag == 1)
 	                	  {
 	                		  Collections.addAll(arrayseat3, Arr3);
-	                	      sec_list.removeAll(arrayseat3);
-	                	      new Validseats3().updatefile(sec_list);
+	                		  for(int i=0;i<sec_list.size();i++)
+	                			 {for (int j=0;j<arrayseat3.size();j++)
+	                			  {if((sec_list.get(i)).equals(arrayseat3.get(j)))
+	                			    {sec_list.set(i,"Booked");}}}
+	                		  new Validseats3().updatefile(sec_list);
 	                	  }
 	                	 Customerfunctions(arrayseat);
 	                  }
@@ -365,7 +377,10 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	  if (flag == 1)
 	                	  {
 	                		  Collections.addAll(arrayseat4, Arr4);
-	                		  sec_list.removeAll(arrayseat4);
+	                		  for(int i=0;i<sec_list.size();i++)
+	                			 {for (int j=0;j<arrayseat4.size();j++)
+	                			  {if((sec_list.get(i)).equals(arrayseat4.get(j)))
+	                			    {sec_list.set(i,"Booked");}}}
 	                		  new Validseats4().updatefile(sec_list);
 	                	  }
 	                	  Customerfunctions(arrayseat);
@@ -397,9 +412,12 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	  int flag = payment();
 	                	  if (flag == 1)
 	                	  {
-	                	  Collections.addAll(arrayseat5, Arr5);
-	                	  sec_list.removeAll(arrayseat5);
-	                	  new Validseats5().updatefile(sec_list);
+	                		  Collections.addAll(arrayseat5, Arr5);
+	                		  for(int i=0;i<sec_list.size();i++)
+	                		  	{for (int j=0;j<arrayseat5.size();j++)
+	                		  		{if((sec_list.get(i)).equals(arrayseat5.get(j)))
+	                		  			{sec_list.set(i,"Booked");}}}
+	                		  new Validseats5().updatefile(sec_list);
 	                	  }
 	                	  Customerfunctions(arrayseat);
 	                  }
@@ -431,7 +449,10 @@ private static void Customerfunctions(LinkedList<String> arrayseat){
 	                	  if (flag == 1)
 	                	  {
 	                	  Collections.addAll(arrayseat6, Arr6);
-	                	  sec_list.removeAll(arrayseat6);
+	                	  for(int i=0;i<sec_list.size();i++)
+              		  			{for (int j=0;j<arrayseat6.size();j++)
+              		  				{if((sec_list.get(i)).equals(arrayseat6.get(j)))
+              		  					{sec_list.set(i,"Booked");}}}
 	                	  new Validseats6().updatefile(sec_list);
 	                	  }
 	                	 Customerfunctions(arrayseat);
