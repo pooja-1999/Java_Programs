@@ -31,6 +31,7 @@ public class GetHandler extends HttpServlet {
 		String name = request.getParameter("name");
 		String address = request.getParameter("address");
 		out.println("Name="+name+"<br>Address="+address);
+		
 		out.println("</body></html>");
 	}
 
