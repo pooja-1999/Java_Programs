@@ -14,7 +14,7 @@
         }
 %>
 <b>Hello <%= session.getAttribute("name") %></b><br>
-<a href="Logout4.jsp">Click here to logout</a>
+<a href="Logout5.jsp">Click here to logout</a>
 </body>
 </html>
 
