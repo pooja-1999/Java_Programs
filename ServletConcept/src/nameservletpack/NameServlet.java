@@ -35,6 +35,7 @@ public class NameServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("Your full name is " + fname + " " + lname);
+        
         out.println("</body></html>");
 
 	}

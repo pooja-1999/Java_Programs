@@ -59,4 +59,5 @@
     <servlet-name>ProductDetails5</servlet-name>
     <url-pattern>/Productinfo</url-pattern>
   </servlet-mapping>
+  
 </web-app>
